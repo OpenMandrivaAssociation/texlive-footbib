@@ -1,3 +1,9 @@
+# revision 17115
+# category Package
+# catalog-ctan /macros/latex/contrib/footbib
+# catalog-date 2010-02-20 20:57:03 +0100
+# catalog-license lppl
+# catalog-version 2.0.7
 Name:		texlive-footbib
 Version:	2.0.7
 Release:	1
@@ -51,6 +57,7 @@ standard bibliography style may be used.
 #- source
 %doc %{_texmfdistdir}/source/latex/footbib/footbib.dtx
 %doc %{_texmfdistdir}/source/latex/footbib/footbib.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ standard bibliography style may be used.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
