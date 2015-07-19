@@ -6,7 +6,7 @@
 # catalog-version 2.0.7
 Name:		texlive-footbib
 Version:	2.0.7
-Release:	9
+Release:	10
 Summary:	Bibliographic references as footnotes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/footbib
