@@ -3,7 +3,7 @@ Version:	17115
 Release:	2
 Summary:	Bibliographic references as footnotes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/footbib
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/footbib
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/footbib.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/footbib.doc.r%{version}.tar.xz
